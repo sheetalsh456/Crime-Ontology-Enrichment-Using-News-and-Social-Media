@@ -1,0 +1,2 @@
+[['PER- Sushma Swaraj', 'REL-visit', 'GPE- Japan', 'IMG-https://external.xx.fbcdn.net/safe_image.php?d=AQBc5PqRWA4d-abc&url=https%3A%2F%2Fstatic.toiimg.com%2Fthumb%2Fmsid-63486084%2Cwidth-1070%2Cheight-580%2Cimgsize-1213294%2Cresizemode-6%2Coverlay-toi_sw%2Cpt-32%2Cy_pad-40%2Fphoto.jpg&_nc_hash=AQCzrJlN5l2PHPeV']]
+[['GPE- Apple', 'REL-scheduled', 'REL-start', 'IMG-https://external.xx.fbcdn.net/safe_image.php?d=AQBIBCW15YwmCklL&url=https%3A%2F%2Fstatic.toiimg.com%2Fphoto%2F63488074.cms&_nc_hash=AQAR4YdF_ad0OFpk']]

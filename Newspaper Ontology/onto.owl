@@ -1,0 +1,677 @@
+<?xml version="1.0"?>
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+]>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#" xml:base="http://aaa-mp.org/onto.owl" ontologyIRI="http://aaa-mp.org/onto.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+>
+<Prefix name="" IRI="http://aaa-mp.org/onto.owl"/>
+<Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+<Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+<Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+<Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+<Prefix name="onto" IRI="http://aaa-mp.org/onto.owl"/>
+
+<Declaration><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/></Declaration>
+<Declaration><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/></Declaration>
+<Declaration><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/></Declaration>
+<Declaration><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/></Declaration>
+<Declaration><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/></Declaration>
+<Declaration><ObjectProperty IRI="http://aaa-mp.org/onto.owl#time"/></Declaration>
+<Declaration><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/></Declaration>
+<Declaration><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/></Declaration>
+<Declaration><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/></Declaration>
+<Declaration><Class IRI="http://aaa-mp.org/onto.owl#Entity"/></Declaration>
+<Declaration><Class IRI="http://aaa-mp.org/onto.owl#Event"/></Declaration>
+<Declaration><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_1"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Abdul_Khaleque"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_NRC"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Kolong_Konwar"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_1"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_2"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Express_Photo"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_2"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Assam"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Nellie"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Muslims"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#flocked"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#seva"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#check"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_3"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_4"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_4"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#said"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#jammed"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#attempted"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#see"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_5"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Railway_PER-_Board_Chairman_Ashwani_Lohani"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#announced"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#pulled"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#host"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_6"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Lohani"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_National_Congress"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Indian_PER-_Steam_Railway_Society"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#try"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#keep"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#told"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#patronized"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#retired"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_7"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_3"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Himachal"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_UNESCO"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_8"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_4"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Gorkhaland"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#inscribed"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_9"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Full"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Matheran"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Neral"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#resume"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#launched"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_10"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_1"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Vegetables"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_11"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_2"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_12"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_3"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_13"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_4"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Quarantine"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_14"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Nashik"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Punjab"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_UP"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Gujarat"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Indore"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_15"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Ramesh_Chand_Sinsinwar"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Kaluram"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#found"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_16"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_File_Photo"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_17"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Rajasthan_High_Court"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Pehlu_Khan"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Alwar"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#granted"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#accused"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_18"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Ravindra"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#made"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#named"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_19"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_5"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#conceded"/></Declaration>
+<Declaration><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_20"/></Declaration>
+
+<InverseObjectProperties><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/></InverseObjectProperties>
+<ObjectPropertyDomain><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><Class IRI="http://aaa-mp.org/onto.owl#Entity"/></ObjectPropertyDomain>
+<ObjectPropertyRange><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><Class IRI="http://aaa-mp.org/onto.owl#Event"/></ObjectPropertyRange>
+
+<FunctionalDataProperty><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/></FunctionalDataProperty>
+<DataPropertyDomain><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/></DataPropertyDomain>
+<DataPropertyRange><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><Datatype IRI="http://www.w3.org/2001/XMLSchema#string"/></DataPropertyRange>
+
+<ObjectPropertyDomain><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/></ObjectPropertyDomain>
+<ObjectPropertyRange><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><Class IRI="http://aaa-mp.org/onto.owl#Event"/></ObjectPropertyRange>
+
+<ObjectPropertyDomain><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/></ObjectPropertyDomain>
+<ObjectPropertyRange><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><Class IRI="http://aaa-mp.org/onto.owl#Entity"/></ObjectPropertyRange>
+
+<InverseObjectProperties><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/></InverseObjectProperties>
+<ObjectPropertyDomain><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><Class IRI="http://aaa-mp.org/onto.owl#Event"/></ObjectPropertyDomain>
+<ObjectPropertyRange><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><Class IRI="http://aaa-mp.org/onto.owl#Entity"/></ObjectPropertyRange>
+
+<InverseObjectProperties><ObjectProperty IRI="http://aaa-mp.org/onto.owl#time"/><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/></InverseObjectProperties>
+<ObjectPropertyDomain><ObjectProperty IRI="http://aaa-mp.org/onto.owl#time"/><Class IRI="http://aaa-mp.org/onto.owl#Event"/></ObjectPropertyDomain>
+<ObjectPropertyRange><ObjectProperty IRI="http://aaa-mp.org/onto.owl#time"/><Class IRI="http://aaa-mp.org/onto.owl#Entity"/></ObjectPropertyRange>
+
+<InverseObjectProperties><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/></InverseObjectProperties>
+<ObjectPropertyDomain><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><Class IRI="http://aaa-mp.org/onto.owl#Event"/></ObjectPropertyDomain>
+<ObjectPropertyRange><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><Class IRI="http://aaa-mp.org/onto.owl#Entity"/></ObjectPropertyRange>
+
+<InverseObjectProperties><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/></InverseObjectProperties>
+<ObjectPropertyDomain><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><Class IRI="http://aaa-mp.org/onto.owl#Event"/></ObjectPropertyDomain>
+<ObjectPropertyRange><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><Class IRI="http://aaa-mp.org/onto.owl#Entity"/></ObjectPropertyRange>
+
+<InverseObjectProperties><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/></InverseObjectProperties>
+<ObjectPropertyDomain><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><Class IRI="http://aaa-mp.org/onto.owl#Event"/></ObjectPropertyDomain>
+<ObjectPropertyRange><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><Class IRI="http://aaa-mp.org/onto.owl#Entity"/></ObjectPropertyRange>
+
+
+
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_1"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Abdul_Khaleque"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_NRC"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Kolong_Konwar"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Abdul_Khaleque"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Abdul_Khaleque"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Abdul_Khaleque"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_2"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_NRC"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_NRC"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_NRC"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_2"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_NRC"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_NRC"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_4"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_NRC"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Kolong_Konwar"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Kolong_Konwar"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Kolong_Konwar"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_2"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_2"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_4"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_1"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_1"/><Literal datatypeIRI="&xsd;string">0.8872767857142857</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_2"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Express_Photo"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Abdul_Khaleque"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_NRC"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Kolong_Konwar"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Express_Photo"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Express_Photo"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_2"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_2"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_2"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_2"/><Literal datatypeIRI="&xsd;string">1.0</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Assam"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Nellie"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_NRC"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Muslims"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#flocked"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#seva"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#check"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#flocked"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#seva"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#check"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Nellie"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Assam"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Assam"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Nellie"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Nellie"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Muslims"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Muslims"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#flocked"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#flocked"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#seva"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#seva"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#check"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#check"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_3"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_3"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_3"/><Literal datatypeIRI="&xsd;string">0.373785783252695</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_4"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_NRC"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_4"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_4"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_4"/><Literal datatypeIRI="&xsd;string">0.5447894119769119</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_NRC"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#said"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#jammed"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#attempted"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#see"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#said"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#jammed"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#attempted"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#see"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#said"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#said"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#said"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#jammed"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#jammed"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#attempted"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#attempted"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#see"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#see"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_5"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_1_5"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2018/01/assam-nrc.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_5"/><Literal datatypeIRI="&xsd;string">0.35105519480519476</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Railway_PER-_Board_Chairman_Ashwani_Lohani"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#announced"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#pulled"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#host"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#announced"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#pulled"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#host"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Railway_PER-_Board_Chairman_Ashwani_Lohani"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Railway_PER-_Board_Chairman_Ashwani_Lohani"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#announced"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#announced"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#pulled"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#pulled"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#host"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#host"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_3"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_4"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_6"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_6"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_6"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_6"/><Literal datatypeIRI="&xsd;string">0.09984364763776529</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Lohani"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_National_Congress"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Indian_PER-_Steam_Railway_Society"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#try"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#keep"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#told"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#patronized"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#retired"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#try"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#keep"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#told"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#patronized"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#retired"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Indian_PER-_Steam_Railway_Society"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Lohani"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Lohani"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_National_Congress"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_National_Congress"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Indian_PER-_Steam_Railway_Society"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Indian_PER-_Steam_Railway_Society"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#try"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#try"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#keep"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#keep"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#told"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#told"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#told"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#told"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#patronized"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#patronized"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#retired"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#retired"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_7"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_7"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_2"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_7"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_7"/><Literal datatypeIRI="&xsd;string">0.12704173398617843</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_3"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Himachal"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_UNESCO"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Himachal"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Himachal"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Himachal"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_3"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_UNESCO"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_UNESCO"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_3"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_UNESCO"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_4"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_8"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_8"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_3"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_8"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_8"/><Literal datatypeIRI="&xsd;string">0.14374843906093904</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_4"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_UNESCO"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Gorkhaland"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#inscribed"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#inscribed"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Gorkhaland"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Gorkhaland"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Gorkhaland"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_4"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#inscribed"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#inscribed"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_4"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_9"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_9"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_4"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_9"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_9"/><Literal datatypeIRI="&xsd;string">0.12893631263008426</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Full"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Matheran"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Neral"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#resume"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#said"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#launched"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#resume"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#said"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#launched"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Full"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Full"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Full"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Matheran"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Matheran"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Neral"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Neral"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#resume"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#resume"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#launched"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#launched"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_10"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_10"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_2_5"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_10"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/12/steam-engine.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_10"/><Literal datatypeIRI="&xsd;string">0.09090585340585342</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_1"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Vegetables"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Vegetables"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Vegetables"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Vegetables"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Vegetables"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_2"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_2"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_3"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_4"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_11"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_11"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_11"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_11"/><Literal datatypeIRI="&xsd;string">1.0</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_2"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Vegetables"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Vegetables"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_12"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_12"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_2"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_12"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_12"/><Literal datatypeIRI="&xsd;string">1.0</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_3"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_13"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_13"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_3"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_13"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_13"/><Literal datatypeIRI="&xsd;string">0.30506854256854254</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_4"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Quarantine"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Quarantine"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Quarantine"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Quarantine"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_4"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_14"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_14"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_4"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_14"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_14"/><Literal datatypeIRI="&xsd;string">0.43683589138134593</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Nashik"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Punjab"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_UP"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Gujarat"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Indore"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Nashik"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Punjab"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Indore"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Nashik"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Nashik"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Punjab"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Punjab"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_UP"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_UP"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Gujarat"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Gujarat"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Indore"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Indore"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_15"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_15"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_3_5"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_15"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/09/wagah.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_15"/><Literal datatypeIRI="&xsd;string">0.4466801716801717</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Ramesh_Chand_Sinsinwar"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Kaluram"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#told"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#found"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#told"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#found"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Ramesh_Chand_Sinsinwar"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Ramesh_Chand_Sinsinwar"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Ramesh_Chand_Sinsinwar"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Kaluram"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Kaluram"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Kaluram"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Kaluram"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#found"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#found"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#found"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_16"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_16"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_1"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_16"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_16"/><Literal datatypeIRI="&xsd;string">0.9239267676767677</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_File_Photo"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Ramesh_Chand_Sinsinwar"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Kaluram"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#told"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#found"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#told"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#found"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_File_Photo"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_File_Photo"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_File_Photo"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_17"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_17"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_2"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_17"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_17"/><Literal datatypeIRI="&xsd;string">1.0</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_File_Photo"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Rajasthan_High_Court"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Pehlu_Khan"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Alwar"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#granted"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#accused"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#granted"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#accused"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Alwar"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Rajasthan_High_Court"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Rajasthan_High_Court"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Pehlu_Khan"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Pehlu_Khan"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Alwar"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Alwar"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#granted"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#granted"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#granted"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#accused"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#accused"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#accused"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_18"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_18"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_3"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_18"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_18"/><Literal datatypeIRI="&xsd;string">0.3162632710426828</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Ravindra"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#accused"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#granted"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#made"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#named"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#accused"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#granted"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#made"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#named"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#location"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Ravindra"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Ravindra"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Ravindra"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#made"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#made"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#named"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#named"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_19"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_19"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_4"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_19"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_19"/><Literal datatypeIRI="&xsd;string">0.2939983627483628</Literal></DataPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Event"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_5"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#_Kaluram"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#conceded"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#subjects"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#action"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#conceded"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#image"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_5"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Entity"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#conceded"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#is_associated_with"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#conceded"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_5"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://aaa-mp.org/onto.owl#Relevance"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_20"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#source"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_20"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#event_4_5"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://aaa-mp.org/onto.owl#dest"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_20"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#http://images.indianexpress.com/2017/05/pehlu-khan-1.jpg?w=759"/></ObjectPropertyAssertion>
+<DataPropertyAssertion><DataProperty IRI="http://aaa-mp.org/onto.owl#weight"/><NamedIndividual IRI="http://aaa-mp.org/onto.owl#relevance_20"/><Literal datatypeIRI="&xsd;string">0.5754222629222628</Literal></DataPropertyAssertion>
+
+</Ontology>
